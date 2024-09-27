@@ -9,7 +9,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-       email: {
+      email: {
         type: Sequelize.STRING
       },
       password: {
@@ -28,7 +28,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       gender: {
-        type: Sequelize.BOOLEAN
+        type: Sequelize.STRING
       },
       roleId: {
         type: Sequelize.STRING
@@ -36,17 +36,17 @@ module.exports = {
       phonenumber: {
         type: Sequelize.STRING
       },
-        positionId: {
+      positionId: {
         type: Sequelize.STRING
       },
-        image: {
+      image: {
         type: Sequelize.STRING
       },
-       createdAt: {
+      createdAt: {
         allowNull: false,
         type: Sequelize.DATE
       },
-     updatedAt: {
+      updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
       }
