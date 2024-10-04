@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node src/server.js"
+    "start": "nodemon --exec babel-node src/server.js",
+    "serve": "nodemon --exec src/server.js"
   },
   "author": "Khang",
   "license": "ISC",
@@ -21,6 +22,7 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "jsbasic": "file:",
+    "lodash": "^4.17.21",
     "mysql2": "^3.11.0",
     "nodemon": "^3.1.4",
     "sequelize": "^6.37.3"

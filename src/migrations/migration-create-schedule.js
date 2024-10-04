@@ -9,26 +9,26 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-       currentNumber: {
+      currentNumber: {
         type: Sequelize.INTEGER
       },
-        maxNumber: {
+      maxNumber: {
         type: Sequelize.INTEGER
       },
       date: {
-        type: Sequelize.DATE
+        type: Sequelize.STRING
       },
-        timeType: {
+      timeType: {
         type: Sequelize.STRING
       },
       doctorId: {
         type: Sequelize.INTEGER
       },
-     createdAt: {
+      createdAt: {
         allowNull: false,
         type: Sequelize.DATE
       },
-     updatedAt: {
+      updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
       }
