@@ -9,7 +9,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-       statusId: {
+      statusId: {
         type: Sequelize.INTEGER
       },
       doctorId: {
@@ -18,17 +18,17 @@ module.exports = {
       patientId: {
         type: Sequelize.INTEGER
       },
-     date: {
-        type: Sequelize.DATE
-      },
-    dateType: {
+      date: {
         type: Sequelize.STRING
       },
-     createdAt: {
+      timeType: {
+        type: Sequelize.STRING
+      },
+      createdAt: {
         allowNull: false,
         type: Sequelize.DATE
       },
-     updatedAt: {
+      updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
       }
